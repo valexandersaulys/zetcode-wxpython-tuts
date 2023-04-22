@@ -25,3 +25,16 @@ You probably forgot to set the parent to `None` for the top level frame
 ```
 wx._core.wxAssertionError: C++ assertion ""m_widget"" failed at ... in DoSetSize(): invalid frame
 ```
+
+### My Columns/Rows aren't expanding as expected
+
+Did you make sure its `AddGrowableRow` or `AddGrowableCol` as you
+required? These are easy to mix up.
+
+
+# Documentation on Some Odd Bits
+
+[`wx.Sizer`
+Flags](https://docs.wxpython.org/sizers_overview.html#the-flags-and-border-parameters)
+
+[Flags for `wx.TextCtrl`](https://docs.wxpython.org/wx.TextCtrl.html#styles-window-styles)
