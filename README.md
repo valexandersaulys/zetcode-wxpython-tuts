@@ -8,7 +8,7 @@
 + [X] Menus and toolbars
 + [X] Layout management
 + [X] wxPython events
-+ [ ] wxPython dialogs
++ [X] wxPython dialogs
 + [ ] wxPython widgets
 + [ ] Advanced widgets
 + [ ] Drag and drop
