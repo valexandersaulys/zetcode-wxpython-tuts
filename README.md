@@ -2,6 +2,21 @@
 
 [Link to Tutorials](https://zetcode.com/wxpython/)
 
+**Progress**
+
++ [X] First steps in wxPython
++ [X] Menus and toolbars
++ [X] Layout management
++ [X] wxPython events
++ [ ] wxPython dialogs
++ [ ] wxPython widgets
++ [ ] Advanced widgets
++ [ ] Drag and drop
++ [ ] Graphics
++ [ ] Custom widgets
++ [ ] Skeletons
++ [ ] The Tetris game
+
 
 ## Corrections
 
