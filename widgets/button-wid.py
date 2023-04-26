@@ -11,10 +11,14 @@ class Example(wx.Frame):
     def InitUI(self):
         # wx.ArtProvider.GetBitmap(wx.ART_UNDO)
         panel = wx.Panel(self)
-
-        self.SetSize((350, 350))
-        self.SetTitle("Toggle Buttons")
+        closeButton = wx.Button(panel, label="Close", pos=(20, 20))
+        closeButton.Bind(wx.EVT_BUTTON, self.OnClose)
+        self.SetSize((350, 250))
+        self.SetTitle("It's a wx Button!")
         self.Center()
+
+    def OnClose(self, evt):
+        self.Close(True)
 
 
 if __name__ == "__main__":

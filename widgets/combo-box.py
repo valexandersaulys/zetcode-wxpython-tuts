@@ -12,9 +12,21 @@ class Example(wx.Frame):
         # wx.ArtProvider.GetBitmap(wx.ART_UNDO)
         panel = wx.Panel(self)
 
+        distros = ["A", "B", "C", "D"]
+        cb = wx.ComboBox(
+            panel, pos=(50, 30), choices=distros, style=wx.CB_READONLY  # ?
+        )
+
+        self.st = wx.StaticText(panel, label="", pos=(50, 140))
+        cb.Bind(wx.EVT_COMBOBOX, self.OnSelect)
+
         self.SetSize((350, 350))
         self.SetTitle("Toggle Buttons")
         self.Center()
+
+    def OnSelect(self, evt):
+        i = evt.GetString()
+        self.st.SetLabel(i)
 
 
 if __name__ == "__main__":
