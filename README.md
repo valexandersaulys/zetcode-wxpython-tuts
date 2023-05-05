@@ -11,7 +11,7 @@
 + [X] wxPython dialogs
 + [X] wxPython widgets
 + [X] Advanced widgets
-+ [ ] Drag and drop
++ [X] Drag and drop
 + [ ] Graphics
 + [ ] Custom widgets
 + [ ] Skeletons
