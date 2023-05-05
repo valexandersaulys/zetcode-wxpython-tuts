@@ -10,7 +10,7 @@
 + [X] wxPython events
 + [X] wxPython dialogs
 + [X] wxPython widgets
-+ [ ] Advanced widgets
++ [X] Advanced widgets
 + [ ] Drag and drop
 + [ ] Graphics
 + [ ] Custom widgets
@@ -23,6 +23,13 @@
 `wx.ArtProvider.GetBitmap(wx.ART_GO_HOME)` => Set the bitmap, the
 previous defaults don't work anymore. [More info here](https://docs.wxpython.org/wx.ArtProvider.html)
 
+
+Apparently this got superseded by `wx.ListCtrl` which now [has an
+`wx.EnableCheckBoxes`
+function](https://stackoverflow.com/a/73426500). More info [in the
+docs](https://docs.wxpython.org/wx.ListCtrl.html?highlight=listctrl#wx.ListCtrl.EnableCheckBoxes). This
+is also in the [readme for advanced
+widgets](advanced-widgets/README.md). 
 
 
 ## Conventions
